@@ -1,4 +1,4 @@
-const explorer = {
+export const explorer = {
   name: "root",
   isFolder: true,
   items: [
@@ -31,6 +31,10 @@ const explorer = {
         },
         {
           name: "index.js",
+          isFolder: false,
+        },
+        {
+          name: "index.css",
           isFolder: false,
         },
       ],
